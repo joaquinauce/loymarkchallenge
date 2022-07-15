@@ -1,5 +1,5 @@
 ## Contenido de la solucion
-1. [General Info] (#generalinfo)
+1. [General Info](#generalinfo)
 Se ha solicitado un CRUD de Usuarios completo, con sus datos obligatorios.
 Se solicita además un listado de actividades (como una auditoria) de todo lo que se ha hecho dentro de la solucion web.
 2. [Technologies](#technologies)
