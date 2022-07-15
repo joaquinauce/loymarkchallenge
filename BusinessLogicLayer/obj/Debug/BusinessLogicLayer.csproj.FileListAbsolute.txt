@@ -9,3 +9,14 @@ C:\ChallengeLoyMark\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreC
 C:\ChallengeLoyMark\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
 C:\ChallengeLoyMark\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
 C:\ChallengeLoyMark\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+D:\loymarkchallenge\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+D:\loymarkchallenge\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+D:\loymarkchallenge\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+D:\loymarkchallenge\BusinessLogicLayer\bin\Debug\Entities.dll
+D:\loymarkchallenge\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+D:\loymarkchallenge\BusinessLogicLayer\bin\Debug\Entities.pdb
+D:\loymarkchallenge\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\loymarkchallenge\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\loymarkchallenge\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+D:\loymarkchallenge\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+D:\loymarkchallenge\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

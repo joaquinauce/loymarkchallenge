@@ -7,3 +7,12 @@ C:\ChallengeLoyMark\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompile
 C:\ChallengeLoyMark\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\ChallengeLoyMark\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\ChallengeLoyMark\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\loymarkchallenge\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\loymarkchallenge\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\loymarkchallenge\DataAccessLayer\bin\Debug\Entities.dll
+D:\loymarkchallenge\DataAccessLayer\bin\Debug\Entities.pdb
+D:\loymarkchallenge\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\loymarkchallenge\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\loymarkchallenge\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+D:\loymarkchallenge\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\loymarkchallenge\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
