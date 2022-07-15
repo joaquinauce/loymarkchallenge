@@ -741,7 +741,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE PROC [dbo].[sp_selectAllUsuarios]
 AS
-SELECT us.id_usuario, us.apellido, us.nombre, us.email, us.fecha_nacimiento, us.telefono, pa.id_pais, pa.nombre AS nombre_pais, pa.codigo_internacional, us.recibe_informacion 
+SELECT us.id_usuario, us.apellido, us.nombre, us.email, us.fecha_nacimiento, us.telefono, pa.id_pais, pa.nombre AS nombre_pais, pa.codigo_internacional, us.recibe_informacion, us.fecha_baja
 FROM Usuarios us JOIN paises pa ON pa.id_pais = us.id_pais
 WHERE us.fecha_baja IS NULL
 GO
@@ -752,7 +752,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE PROC [dbo].[sp_selectAllUsuariosEliminados]
 AS
-SELECT us.id_usuario, us.apellido, us.nombre, us.email, us.fecha_nacimiento, us.telefono, pa.id_pais, pa.nombre AS nombre_pais, pa.codigo_internacional, us.recibe_informacion   
+SELECT us.id_usuario, us.apellido, us.nombre, us.email, us.fecha_nacimiento, us.telefono, pa.id_pais, pa.nombre AS nombre_pais, pa.codigo_internacional, us.recibe_informacion, us.fecha_baja  
 FROM Usuarios us JOIN paises pa ON pa.id_pais = us.id_pais  
 WHERE us.fecha_baja IS NOT NULL  
 GO
