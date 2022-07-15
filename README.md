@@ -7,7 +7,7 @@ ASP.NET C# (.NET Framework 4.7.2)
 SQL Server 2019
 3. [Installation](#installation)
 Ejecutar en SQL Server los scripts que se encuentran en la raíz del repositorio => ScriptsLoymark.sql
-Dentro de la solución, encontrarás un archivo llamado Web.config, ahi dentro deberás completar con los datos correspondientes a tu base de datos, dentro de la etiqueta <connectionStrings>.
+Dentro de la solución, encontrarás un archivo llamado Web.config, ahi dentro deberás completar con los datos correspondientes a tu base de datos, dentro de la etiqueta connectionStrings.
 Ejecutar la solucion con Visual Studio 2019.
 6. [Considerations](#Considerations)
 En base de datos, en vez de eliminar de manera física un usuario, se le agrega una columna fecha_baja y se realiza un update sobre la tabla usuarios, seteandole la fecha.
