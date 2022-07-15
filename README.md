@@ -10,4 +10,4 @@ Ejecutar en SQL Server los scripts que se encuentran en la raíz del repositorio
 Dentro de la solución, encontrarás un archivo llamado Web.config, ahi dentro deberás completar con los datos correspondientes a tu base de datos, dentro de la etiqueta connectionStrings.
 Ejecutar la solucion con Visual Studio 2019.
 6. [Considerations](#Considerations)
-En base de datos, en vez de eliminar de manera física un usuario, se le agrega una columna fecha_baja y se realiza un update sobre la tabla usuarios, seteandole la fecha.
+En base de datos, en vez de eliminar de manera física un usuario, se le agrega una columna fecha_baja y se realiza un update sobre la tabla usuarios, seteandole la fecha. Se agrega en listado de usuarios, un check que permite ver aquellos usuarios que han sido eliminados
