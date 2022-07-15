@@ -1,0 +1,11 @@
+C:\ChallengeLoyMark\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\ChallengeLoyMark\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\ChallengeLoyMark\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\ChallengeLoyMark\BusinessLogicLayer\bin\Debug\Entities.dll
+C:\ChallengeLoyMark\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\ChallengeLoyMark\BusinessLogicLayer\bin\Debug\Entities.pdb
+C:\ChallengeLoyMark\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\ChallengeLoyMark\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\ChallengeLoyMark\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\ChallengeLoyMark\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\ChallengeLoyMark\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

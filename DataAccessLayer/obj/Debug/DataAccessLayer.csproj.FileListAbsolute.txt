@@ -1,0 +1,9 @@
+C:\ChallengeLoyMark\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\ChallengeLoyMark\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\ChallengeLoyMark\DataAccessLayer\bin\Debug\Entities.dll
+C:\ChallengeLoyMark\DataAccessLayer\bin\Debug\Entities.pdb
+C:\ChallengeLoyMark\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\ChallengeLoyMark\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\ChallengeLoyMark\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\ChallengeLoyMark\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\ChallengeLoyMark\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

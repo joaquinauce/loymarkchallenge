@@ -1,0 +1,315 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: 1s;
+}
+
+.preloader:before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    width:50%;
+    height:100%;
+    background: #000;
+}
+
+/*////SPINNER/*/ 
+#modalSpinner {
+    z-index: 2060 !important;
+}
+
+.second-backdrop {
+    z-index: 2055 !important;
+}
+
+/*   Clase para centar las notificaciones   */
+.navbar-fixed-top, .navbar-static-top {
+    /*background:transparent;*/
+    background-color: #3B3B3B;
+    width: 100vw;
+}
+
+/*      Seccion Login       */
+.bg-image {
+    background-color: #e7eaec;
+    background-image: url('../img/bg-header-blur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-title {
+    color: #FEFEFE;
+    opacity: .87;
+}
+
+.field-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.box-login {
+    background-color: rgba(54, 56, 62, 0.5);
+    box-shadow: 0px 2px 2px rgba(61, 68, 69, 0.4);
+    border-radius: 4px;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+}
+
+
+.login-input {
+    /*font-size: .9rem;*/
+    font-size: 1rem;
+    border: .1rem solid rgba(255, 255, 255, 0.4);
+    padding: 16px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: transparent;
+    color: #FEFEFE;
+    transition: .3s all;
+}
+
+.login-input:focus{
+    border-bottom-color: #F0AD4E;
+}
+
+.login-label {
+    font-size: .7rem;
+}
+
+.login-button {
+    font-size:.87rem;
+}
+
+.field-placeholder {
+    font-size: 16px;
+    position: absolute;
+    /* background: #fff; */
+    /*bottom: 38px;*/
+    bottom: 42px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #80868b;
+    left: 8px;
+    padding: 0 8px;
+    -webkit-transition: transform 150ms cubic-bezier(0.4,0,0.2,1),opacity 150ms cubic-bezier(0.4,0,0.2,1);
+    transition: transform 150ms cubic-bezier(0.4,0,0.2,1),opacity 150ms cubic-bezier(0.4,0,0.2,1);
+    z-index: 1;
+    text-align: left;
+    width: 100%;
+}
+
+.field-wrapper .field-placeholder span {
+    background-color: transparent;
+    padding: 0px 8px;
+}
+
+.field-wrapper input:not([disabled]):focus ~ .field-placeholder {
+    color: #F0AD4E;
+}
+
+.field-wrapper input:not([disabled]):focus ~ .field-placeholder,
+.field-wrapper.hasValue input:not([disabled]) ~ .field-placeholder {
+    -webkit-transform: scale(.75) translateY(-28px) translateX(-60px);
+    /*transform: scale(.75) translateY(-28px) translateX(-60px);*/
+    transform: scale(.75) translateY(-24px) translateX(-60px);
+}
+
+.alert-information {
+    background-color: #E0EEFB;
+    color: #3B3B3B;
+    border-left: 6px solid #62ACED;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.informationv2 {
+    background-color: #E0EEFB;
+    color: #3B3B3B;
+    border-top: 3px solid #62ACED;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+/*   Extras de Color   */
+
+.primary-color {
+    background-color: #F8A542;
+    color: #FEFEFE;
+}
+
+.secondary-color {
+    background-color: #FB855D;
+    color: #FEFEFE;
+}
+
+.btn-navbar:hover {
+    color: #FEFEFE;    
+}
+
+.btn-outline-principal {
+    border-color: #C9C9C9;
+    color: #F8A542;
+    transition:.5s;
+}
+
+    .btn-outline-principal:hover,
+    .btn-outline-principal:focus,
+    .btn-outline-principal:active {
+        border-color: #C9C9C9;
+        color: #F8A542 !important;
+        background-color: #FDE4C6;
+    }
+
+.btn-outline-white {
+    border-color: #C9C9C9;
+    background-color: #f5f5f5;
+    color: #F8A542;
+}
+
+    .btn-outline-white:hover,
+    .btn-outline-white:focus,
+    .btn-outline-white:active {
+        border-color: #C9C9C9;
+        color: #F8A542 !important;
+        background-color: #FDE4C6;
+    }
+
+/*.primary-line {
+    border-top: 3px solid #F8A542;
+}*/
+/*  Button Styles   */
+
+.btn-outline-blue {
+    border-color: #C9C9C9;
+    background-color: transparent;
+    color: #5496E5;
+    transition: .5s;
+}
+
+.btn-outline-blue:hover,
+.btn-outline-blue:focus,
+.btn-outline-blue:active {
+    border-color: #5496E5;
+    color: #FEFEFE;
+    background-color: #5496E5;
+}
+
+.btn-outline-green {
+    border-color: #C9C9C9;
+    background-color: transparent;
+    color: #3AB9C0;
+    transition: .5s;
+}
+
+.btn-outline-green:hover,
+.btn-outline-green:focus,
+.btn-outline-green:active {
+    border-color: #3AB9C0;
+    color: #FEFEFE;
+    background-color: #3AB9C0;
+}
+
+.btn-outline-yellow {
+    border-color: #C9C9C9;
+    background-color: transparent;
+    color: #FAC15A;
+    transition: .5s;
+}
+
+.btn-outline-yellow:hover,
+.btn-outline-yellow:focus,
+.btn-outline-yellow:active {
+    border-color: #FAC15A;
+    color: #FEFEFE;
+    background-color: #FAC15A;
+    transition: .5s;
+}
+
+.btn-outline-red {
+    border-color: #C9C9C9;
+    background-color: transparent;
+    color: #DD3D55;
+    transition: .5s;
+}
+
+.btn-outline-red:hover,
+.btn-outline-red:focus,
+.btn-outline-red:active {
+    border-color: #DD3D55;
+    color: #FEFEFE;
+    background-color: #DD3D55;
+}
+
+.btn-outline-violet {
+    border-color: #C9C9C9;
+    background-color: transparent;
+    color: #8454AF;
+    transition: .5s;
+}
+
+    .btn-outline-violet:hover,
+    .btn-outline-violet:focus,
+    .btn-outline-violet:active {
+        border-color: #8454AF;
+        color: #FEFEFE;
+        background-color: #8454AF;
+    }
+
+.btn-outline-orange {
+    border-color: #C9C9C9;
+    background-color: transparent;
+    color: #FA775A;
+    transition: .5s;
+}
+
+.btn-outline-orange:hover,
+.btn-outline-orange:focus,
+.btn-outline-orange:active {
+    border-color: #FA775A;
+    color: #FEFEFE;
+    background-color: #FA775A;
+}
+
+.label-pill {
+    display: inline-block;
+    padding: 5px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    border-radius: 0.25em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+/*  TAREAS LABEL PILL   */
+
+.label-pill-inspeccion, .label-pill-inspeccion:hover {
+    background-color: #89D5D9;
+    color: #716A6A;
+}
+
+.label-pill-finalizada, .label-pill-finalizada:hover {
+    background-color: #FCDA9C;
+    color: #716A6A;
+}
+
+.label-pill-encurso, .label-pill-encurso:hover {
+    background-color: #D2DFFF;
+    color: #716A6A;
+}
+
+.label-pill-rechazado, .label-pill-rechazado:hover {
+    background-color: #FFC1C1;
+    color: #716A6A;
+}
+
+.label-pill-vencida, .label-pill-vencida:hover {
+    background-color: #D0C5BE;
+    color: #716A6A;
+}

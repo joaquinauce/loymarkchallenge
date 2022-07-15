@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoyMark.master.cs" Inherits="ChallengeLoyMark.LoyMark" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="favicon.png" rel="icon" />
+    <title>Loymark Challenge</title>
+
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="/css/sweetalert.css" />
+    <link rel="stylesheet" type="text/css" href="/css/datepicker3.css" />
+    <link rel="stylesheet" type="text/css" href="/css/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/select2-bootstrap4.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+    <script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/inspinia.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="/js/select2.full.min.js"></script>
+    <script type="text/javascript" src="/scripts/sweetalert.js"></script>
+    <script type="text/javascript" src="/js/jquery.metisMenu.js"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="600"></asp:ScriptManager>
+
+        <div id="navbar-wrapper">
+            <nav class="navbar navbar-default navbar-fixed-top navbar-expand-md" role="navigation">
+                <div class="container">
+                    <a class="navbar-brand" href="https://loymark.com/" target="_blank">Loymark</a>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li runat="server">
+                                <a href="/UsuarioList.aspx"><i class="fa fa-list"></i><span class="nav-label">Listado de Usuarios</span></a>
+                            </li>
+                            <li runat="server">
+                                <a href="/UsuarioCRUD.aspx"><i class="fa fa-user"></i><span class="nav-label">Registro de Usuario</span></a>
+                            </li>
+                            <li runat="server">
+                                <a href="/Actividades.aspx"><i class="fa fa-cubes"></i><span class="nav-label">Registro de Actividades</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <br />
+            <br />
+        </div>
+        <div id="page-wrapper">
+
+            <asp:UpdatePanel ID="updatePanel1" runat="server">
+                <ContentTemplate>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+
+    </form>
+</body>
+</html>
